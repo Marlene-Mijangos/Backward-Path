@@ -55,12 +55,14 @@ After that, edges are listed in the format U V, one per line.
 
 Example:
 
+```txt
 8
 6 3
 2 1
 5 7
 6 7
 3 5
+```
 
 Displayed Results
 
