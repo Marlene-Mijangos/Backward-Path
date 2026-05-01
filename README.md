@@ -1,11 +1,10 @@
-# Backward Path Studio
+# HIPP-CIS: System for Counting Independent Sets via Hamiltonian-Traversal-Induced Pathwidth
 
 Web application for visually editing graphs and computing the number of independent sets using an engine inspired by the backward path approach. It includes an interactive canvas, node and edge editing, case export functionality, and a performance section with stress testing.
 
 ## Description
 
-This project is a single-page mini application that combines a user interface, graph-processing logic, and performance visualization.
-Users can paste a graph in text form, modify it visually, and obtain metrics such as i(G), estimated width, detected case type, and execution time.
+HIPP-CIS is a web-based computational system for the exact counting of independent sets in graphs. It applies structured Hamiltonian traversals and an induced pathwidth-based state-space reduction strategy to process regular and irregular graph structures and compute the Merrifield–Simmons index through an interactive interface.
 
 The interface supports both light and dark themes through CSS variables, and the performance chart is generated using Chart.js.
 
